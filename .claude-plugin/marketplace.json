@@ -1,6 +1,6 @@
 {
-  "name": "robonuggets",
-  "owner": { "name": "Jay E", "url": "https://robonuggets.com" },
+  "name": "koposcabana",
+  "owner": { "name": "koposcabana", "url": "https://github.com/koposcabana" },
   "plugins": [
     {
       "name": "ribbon",

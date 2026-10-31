@@ -120,7 +120,7 @@ test('a cleared session drops the cache until the next reply', async ($, on) => 
   await band.unmount()
 })
 
-test('after a resume the cold price is Claude Code's own estimate, not the table's', async ($, on) => {
+test("after a resume the cold price is Claude Code's own estimate, not the table's", async ($, on) => {
   mock.store(on)
   mock.clock(on, { now: NOW })
   on('session.start', ($, e) => ({ cwd: e.cwd }))
